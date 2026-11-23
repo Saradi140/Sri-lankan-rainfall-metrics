@@ -1,0 +1,5 @@
+-r requirements.txt
+statsmodels>=0.14
+shap>=0.45
+matplotlib>=3.8
+jupyter
