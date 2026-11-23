@@ -66,7 +66,7 @@ if page == "Overview":
         fig.add_scatter(x=h.date, y=h.rfh_avg, name="Long-term average", line=dict(color="#555", dash="dash"))
         fig.update_layout(height=340, margin=dict(t=30, b=10), yaxis_title="mm per dekad", title=f"{d}: dekadal rainfall")
         st.plotly_chart(fig, width='stretch')
-       with right:
+    with right:
         ann = (hist.groupby("district")["rfh"].mean() * 36).sort_values().reset_index()
         ann.columns = ["district", "mm_per_year"]
         fig = px.bar(ann, x="mm_per_year", y="district", orientation="h", color="mm_per_year",
