@@ -29,7 +29,7 @@ Deploy free on Streamlit Community Cloud: push this folder to GitHub, choose `ap
 * `rainfall_ensemble_learning.ipynb`: full training, evaluation and interpretation (executed, with outputs)
 * `app.py`: Streamlit dashboard (overview, model arena, backtest viewer, next-dekad outlook, what-if predictor, insights)
 * `models/`: trained `.joblib` models (re-fitted on all data) · `artifacts/`: metrics, predictions, forecasts, SHAP plot
-* `VIDEO_SCRIPT.md`: 3-minute voice-over script and shot list
+
 
 ## AI-assistance disclosure
 Parts of the code were generated with the help of an AI assistant (Claude, by Anthropic), then run and interpreted by the student author.
